@@ -1,4 +1,4 @@
-package com.contacts.backend.controller;
+package com.contacts.backend;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

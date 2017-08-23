@@ -1,7 +1,8 @@
-package com.contacts.backend.controller;
+package com.contacts.backend;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.contacts.backend.controller.ContactsController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

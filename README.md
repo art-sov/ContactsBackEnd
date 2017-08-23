@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/art-sov/ContactsBackEnd.svg?branch=master)](https://travis-ci.org/art-sov/ContactsBackEnd)
+
 TestTask2
 
 Run the following script in MySQL: 

@@ -1,12 +1,6 @@
 language: java
 services:
   - mysql
-
-test:
-  adapter: mysql2
-  database: hello
-  username: root
-  encoding: utf8
   
 before_install:
   - mysql -e '<CREATE DATABASE hello;

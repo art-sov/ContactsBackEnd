@@ -19,6 +19,13 @@ INSERT INTO `hello`.`contact` (`name`) VALUES ('first');
 
 INSERT INTO `hello`.`contact` (`name`) VALUES ('second');
 
+
+Username and password must match the 
+
+spring.datasource.username
+spring.datasource.password 
+
+in file application.properties
 .....
 
 Launch the application:

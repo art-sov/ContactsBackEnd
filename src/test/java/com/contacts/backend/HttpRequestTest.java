@@ -24,7 +24,7 @@ public class HttpRequestTest {
     private TestRestTemplate restTemplate;
 
     @Test
-    public void greetingShouldReturnDefaultMessage() throws Exception {
+    public void ContactShouldReturnDefaultMessage() throws Exception {
         assertThat(this.restTemplate.getForEntity("http://localhost:" + port +
                 "/hello/contacts?nameFilter=^.*[aei].*$", Contact[].class)
                 .getStatusCode()== HttpStatus.OK
